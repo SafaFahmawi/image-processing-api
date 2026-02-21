@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ES2018",
+    "module": "commonjs",
+    "lib": ["ES2018"],
+
+    /* Project Structure */
+    "rootDir": ".",
+    "outDir": "./build",
+
+    /* Interoperability */
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+
+    /* Type Checking */
+    "strict": true,
+    "noImplicitAny": true,
+
+    /* Types */
+    "types": ["node", "jasmine"],
+
+    /* Output */
+    "sourceMap": true,
+
+    /* Compatibility */
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+
+  "include": ["src", "spec", "server.ts"],
+
+  "exclude": ["node_modules"]
+}
